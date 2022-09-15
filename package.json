@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "nodemon server.js localhost 3080",
     "start": "node server.js",
-    "build":"webpack"
+    "build": "webpack"
   },
   "repository": {
     "type": "git",
@@ -31,8 +31,17 @@
   },
   "homepage": "https://github.com/TommyTeaVee/ngFS-Devops#readme",
   "dependencies": {
+    "del": "^5.1.0",
     "express": "^4.18.1",
+    "fancy-log": "^2.0.0",
+    "gulp": "^4.0.2",
+    "gulp-cli": "^2.3.0",
+    "gulp-zip": "^5.1.0",
     "nodemon": "^2.0.19",
-    "webpack": "^5.74.0"
+    "webpack": "^5.74.0",
+    "webpack-stream": "^7.0.0"
+  },
+  "devDependencies": {
+    "webpack-cli": "^4.10.0"
   }
 }
